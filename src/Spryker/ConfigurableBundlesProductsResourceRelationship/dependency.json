@@ -1,5 +1,0 @@
-{
-    "include": {
-        "spryker/configurable-bundles-rest-api": "ConfigurableBundlesRestApi module provides REST functionality for configurable bundle feature."
-    }
-}

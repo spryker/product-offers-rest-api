@@ -1,8 +1,0 @@
-parameters:
-    level: 7
-    checkGenericClassInNonGenericObjectType: false
-    checkMissingIterableValueType: false
-    ignoreErrors:
-        - '#Call to an undefined method .+ActiveRecordInterface::getStore\(\).#'
-        - '#Call to an undefined method .+ActiveRecordInterface::getKey\(\).#'
-        - '#Call to an undefined method .+ActiveRecordInterface::getData\(\).#'

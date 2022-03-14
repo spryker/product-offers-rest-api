@@ -1,9 +1,0 @@
-[
-    {
-        "fileName": "src/Spryker/Zed/MerchantProductOfferSearch/Dependency/Facade/MerchantProductOfferSearchToProductPageSearchFacadeBridge.php",
-        "description": "Bridges: Type should be defined for param `pageDataExpanderPluginNames` in method `Spryker\\Zed\\MerchantProductOfferSearch\\Dependency\\Facade\\MerchantProductOfferSearchToProductPageSearchFacadeBridge::refresh()`.",
-        "rule": "BridgeMethodsRule",
-        "ruleset": "Spryker",
-        "priority": "2"
-    }
-]

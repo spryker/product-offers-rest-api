@@ -1,9 +1,0 @@
-[
-    {
-        "fileName": "src/Spryker/Zed/ProductApi/Dependency/Facade/ProductApiToProductBridge.php",
-        "description": "Bridges: Type should be defined for param `idProductAbstract` in method `Spryker\\Zed\\ProductApi\\Dependency\\Facade\\ProductApiToProductBridge::findProductAbstractById()`.",
-        "rule": "BridgeMethodsRule",
-        "ruleset": "Spryker",
-        "priority": "2"
-    }
-]
