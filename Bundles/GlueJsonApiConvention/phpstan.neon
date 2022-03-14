@@ -1,4 +1,0 @@
-parameters:
-    level: 8
-    ignoreErrors:
-        - '#Parameter \#2 \$resource of method .+RequestAfterRoutingValidatorPluginInterface::validateRequest\(\) expects .+JsonApiResourceInterface, .+ResourceInterface given.#'

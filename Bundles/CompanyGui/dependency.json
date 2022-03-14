@@ -1,5 +1,0 @@
-{
-    "include": {
-        "spryker/company-gui-extension": "Interfaces it depends on"
-    }
-}
