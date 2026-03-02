@@ -23,10 +23,6 @@ class ProductOfferReader implements ProductOfferReaderInterface
      */
     protected $productOfferRestResponseBuilder;
 
-    /**
-     * @param \Spryker\Glue\ProductOffersRestApi\Processor\RestResponseBuilder\ProductOfferRestResponseBuilderInterface $productOfferRestResponseBuilder
-     * @param \Spryker\Glue\ProductOffersRestApi\Dependency\Client\ProductOffersRestApiToProductOfferStorageClientInterface $productOfferStorageClient
-     */
     public function __construct(
         ProductOfferRestResponseBuilderInterface $productOfferRestResponseBuilder,
         ProductOffersRestApiToProductOfferStorageClientInterface $productOfferStorageClient

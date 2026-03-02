@@ -21,11 +21,6 @@ class ProductOffersRestApiDependencyProvider extends AbstractBundleDependencyPro
      */
     public const CLIENT_PRODUCT_OFFER_STORAGE = 'CLIENT_PRODUCT_OFFER_STORAGE';
 
-    /**
-     * @param \Spryker\Glue\Kernel\Container $container
-     *
-     * @return \Spryker\Glue\Kernel\Container
-     */
     public function provideDependencies(Container $container): Container
     {
         $container = parent::provideDependencies($container);
@@ -34,11 +29,6 @@ class ProductOffersRestApiDependencyProvider extends AbstractBundleDependencyPro
         return $container;
     }
 
-    /**
-     * @param \Spryker\Glue\Kernel\Container $container
-     *
-     * @return \Spryker\Glue\Kernel\Container
-     */
     protected function addProductOfferStorageClient(Container $container): Container
     {
         $container->set(static::CLIENT_PRODUCT_OFFER_STORAGE, function (Container $container) {

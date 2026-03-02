@@ -21,9 +21,6 @@ class ProductOfferExpander implements ProductOfferExpanderInterface
      */
     protected $productOfferReader;
 
-    /**
-     * @param \Spryker\Glue\ProductOffersRestApi\Processor\Reader\ProductOfferReaderInterface $productOfferReader
-     */
     public function __construct(ProductOfferReaderInterface $productOfferReader)
     {
         $this->productOfferReader = $productOfferReader;

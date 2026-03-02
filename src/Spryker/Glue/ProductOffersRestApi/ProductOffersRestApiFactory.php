@@ -18,9 +18,6 @@ use Spryker\Glue\ProductOffersRestApi\Processor\RestResponseBuilder\ProductOffer
 
 class ProductOffersRestApiFactory extends AbstractFactory
 {
-    /**
-     * @return \Spryker\Glue\ProductOffersRestApi\Processor\Expander\ProductOfferExpanderInterface
-     */
     public function createProductOfferExpander(): ProductOfferExpanderInterface
     {
         return new ProductOfferExpander(
@@ -28,9 +25,6 @@ class ProductOffersRestApiFactory extends AbstractFactory
         );
     }
 
-    /**
-     * @return \Spryker\Glue\ProductOffersRestApi\Processor\Reader\ProductOfferReaderInterface
-     */
     public function createProductOfferReader(): ProductOfferReaderInterface
     {
         return new ProductOfferReader(
@@ -39,17 +33,11 @@ class ProductOffersRestApiFactory extends AbstractFactory
         );
     }
 
-    /**
-     * @return \Spryker\Glue\ProductOffersRestApi\Dependency\Client\ProductOffersRestApiToProductOfferStorageClientInterface
-     */
     public function getProductOfferStorageClient(): ProductOffersRestApiToProductOfferStorageClientInterface
     {
         return $this->getProvidedDependency(ProductOffersRestApiDependencyProvider::CLIENT_PRODUCT_OFFER_STORAGE);
     }
 
-    /**
-     * @return \Spryker\Glue\ProductOffersRestApi\Processor\RestResponseBuilder\ProductOfferRestResponseBuilderInterface
-     */
     public function createProductOfferRestResponseBuilder(): ProductOfferRestResponseBuilderInterface
     {
         return new ProductOfferRestResponseBuilder(

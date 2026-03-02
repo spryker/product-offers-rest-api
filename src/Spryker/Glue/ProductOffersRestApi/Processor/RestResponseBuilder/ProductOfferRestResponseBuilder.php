@@ -21,9 +21,6 @@ class ProductOfferRestResponseBuilder implements ProductOfferRestResponseBuilder
      */
     protected $restResourceBuilder;
 
-    /**
-     * @param \Spryker\Glue\GlueApplication\Rest\JsonApi\RestResourceBuilderInterface $restResourceBuilder
-     */
     public function __construct(RestResourceBuilderInterface $restResourceBuilder)
     {
         $this->restResourceBuilder = $restResourceBuilder;
@@ -46,12 +43,6 @@ class ProductOfferRestResponseBuilder implements ProductOfferRestResponseBuilder
         return $productOffersRestResources;
     }
 
-    /**
-     * @param \Generated\Shared\Transfer\ProductOfferStorageTransfer $productOfferStorageTransfer
-     * @param string|null $defaultProductOfferReference
-     *
-     * @return \Spryker\Glue\GlueApplication\Rest\JsonApi\RestResourceInterface
-     */
     protected function createProductOfferRestResource(
         ProductOfferStorageTransfer $productOfferStorageTransfer,
         ?string $defaultProductOfferReference = null
